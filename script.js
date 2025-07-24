@@ -1,4 +1,4 @@
-const key = "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"; 
+const token = process.env.HF_TOKEN;
 
 const inputText = document.getElementById("input");
 const image = document.getElementById("image");
