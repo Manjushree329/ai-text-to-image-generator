@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AI TEXT TO IMAGE GENERATOR</h1>
+
+        <div class="input">
+            <label for="input">Create an Image from a text Prompt:</label>
+            <input type="text" id="input" placeholder="Enter text to generate image">
+            <button id="btn">
+                Generate Image 
+                <img src="generate.svg" alt="Generate icon">
+            </button>
+        </div>
+
+        <div class="output">
+            <div class="image">
+                <img id="image" src="placeholder.jpg" alt="Generated image preview">
+                <img id="svg" src="Image.svg" alt="Default preview image">
+                <img id="loading" src="1.load.gif" alt="Loading indicator" style="display: none;">
+            </div>
+            <div class="btns"> 
+                <button id="download"> 
+                    Download 
+                    <img src="download.svg" alt="Download icon">
+                </button>
+                <button id="reset"> 
+                    Reset 
+                    <img src="reset.svg" alt="Reset icon">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
