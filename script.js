@@ -1,5 +1,4 @@
-const token = process.env.HF_TOKEN;
-
+const token = "hf_your_read_only_token"; 
 const inputText = document.getElementById("input");
 const image = document.getElementById("image");
 const GenBtn = document.getElementById("btn");
